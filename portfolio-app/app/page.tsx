@@ -1,3 +1,4 @@
+import Cursus from "@/components/Cursus";
 import Divider from "@/components/ui/Divider";
 import { ModeToggle } from "@/components/ui/ModeToggle";
 import Contact from "../components/Contact";
@@ -10,11 +11,12 @@ export default function Home() {
     <div className="px-16">
       <ModeToggle />
       <Header />
-      <Divider titleSection="Experience" />
+      <Divider titleSection="My Cursus" />
+      <Cursus />
+      <Divider titleSection="My Experiences" />
       <Experiences />
-      <Divider titleSection="Contact" />
+      <Divider titleSection="My Contacts" />
       <Contact />
-      <Divider titleSection="Footer" />
       <Footer />
     </div>
   );
