@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { LampContainer } from "../components/ui/Lamp";
+import { LampContainer } from "./ui/Lamp";
 
 export default function Experiences() {
   return (

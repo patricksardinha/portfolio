@@ -1,13 +1,13 @@
 import Divider from "@/components/ui/Divider";
 import { ModeToggle } from "@/components/ui/ModeToggle";
-import Contact from "./Contact";
-import Experiences from "./Experiences";
-import Footer from "./Footer";
-import Header from "./Header";
+import Contact from "../components/Contact";
+import Experiences from "../components/Experiences";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <>
+    <div className="px-16">
       <ModeToggle />
       <Header />
       <Divider titleSection="Experience" />
@@ -16,6 +16,6 @@ export default function Home() {
       <Contact />
       <Divider titleSection="Footer" />
       <Footer />
-    </>
+    </div>
   );
 }
