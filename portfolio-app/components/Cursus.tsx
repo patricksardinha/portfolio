@@ -11,9 +11,9 @@ export default function Cursus() {
             </h3>
             <h4>Bachelor of Science - Computer Sciences</h4>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-              Get access to over 20+ pages including a dashboard layout, charts,
-              kanban board, calendar, and pre-order E-commerce & Marketing
-              pages.
+              My learning during my bachelor{"'"}s degree was very enriching. I
+              acquired a lot of knowledge about IT in the broad sense and I had
+              the opportunity to participate in a lot of practical work.
             </p>
 
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -49,9 +49,9 @@ export default function Cursus() {
             </h3>
             <h4>General baccalaureate - Scientific Series</h4>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-              Get access to over 20+ pages including a dashboard layout, charts,
-              kanban board, calendar, and pre-order E-commerce & Marketing
-              pages.
+              In high school I discovered programming through the Computer
+              Science and Digital Sciences specialty and that{"'"}s where my
+              journey began !
             </p>
           </li>
 
