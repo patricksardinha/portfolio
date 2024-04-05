@@ -28,8 +28,8 @@ export default function Cursus() {
             </h3>
             <h4>Full-Stack Web Development Formation</h4>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive elements
-              built on top of Tailwind CSS.
+              After my university training I decided to follow a formation in
+              Full Stack Web development to further specialize in this field.
             </p>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2021 - 2022
@@ -65,9 +65,9 @@ export default function Cursus() {
             </h3>
             <h4>Master of Science - Computer Sciences</h4>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              All of the pages and components are first designed in Figma and we
-              keep a parity between the two versions even as we update the
-              project.
+              During my master{"'"}s degree I gained more and more knowledge and
+              I had the opportunity to put them into practice on large-scale
+              academic projects.
             </p>
           </li>
 
@@ -81,9 +81,9 @@ export default function Cursus() {
             </h3>
             <h4>Unity Programmer Formation</h4>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-              Get access to over 20+ pages including a dashboard layout, charts,
-              kanban board, calendar, and pre-order E-commerce & Marketing
-              pages.
+              I also trained in the development of real-time 3D applications
+              with Unity. At the same time, I also learned to work with 2D and
+              3D modeling software.
             </p>
           </li>
         </ol>
