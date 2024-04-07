@@ -8,7 +8,7 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="px-16">
+    <div className="px-16 bg-light-pattern dark:bg-dark-pattern">
       <ModeToggle />
       <Header />
       <Divider titleSection="My Cursus" />

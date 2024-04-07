@@ -18,6 +18,15 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        "light-pattern": "url('../images/bg-img3/5367739.jpg')",
+        "dark-pattern": "url('../images/bg-img2/gradient_1.jpg')",
+      },
+      backgroundOpacity: {
+        "10": "0.1",
+        "20": "0.2",
+        "95": "0.95",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

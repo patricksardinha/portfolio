@@ -1,23 +1,27 @@
 "use client";
+
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { LampContainer } from "./ui/Lamp";
 
 export default function Experiences() {
+  const logoGaea21 = require("../images/gaea21_logo.png");
+
   return (
     <LampContainer>
-      <article className="content-center w-2/3 rounded-xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8">
+      <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-700 sm:p-6 lg:p-8">
         <div className="flex items-start sm:gap-8">
           <div
-            className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full sm:border-2 sm:border-indigo-500"
+            className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-2 bg-gray-200 dark:bg-gray-700 border-gray-200 dark:border-gray-700"
             aria-hidden="true"
           >
-            <div className="flex items-center gap-1">
-              <span className="h-8 w-0.5 rounded-full bg-indigo-500"></span>
-              <span className="h-6 w-0.5 rounded-full bg-indigo-500"></span>
-              <span className="h-4 w-0.5 rounded-full bg-indigo-500"></span>
-              <span className="h-6 w-0.5 rounded-full bg-indigo-500"></span>
-              <span className="h-8 w-0.5 rounded-full bg-indigo-500"></span>
-            </div>
+            <Image
+              className="flex items-center gap-1 rounded-full"
+              alt="gaea21"
+              width={100}
+              height={100}
+              src={logoGaea21}
+            />
           </div>
 
           <div>
