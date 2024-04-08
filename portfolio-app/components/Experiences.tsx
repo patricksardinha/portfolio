@@ -1,100 +1,180 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Image from "next/image";
-import { LampContainer } from "./ui/Lamp";
 
 export default function Experiences() {
   const logoGaea21 = require("../images/gaea21_logo.png");
 
   return (
-    <LampContainer>
-      <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-700 sm:p-6 lg:p-8">
-        <div className="flex items-start sm:gap-8">
-          <div
-            className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-2 bg-gray-200 dark:bg-gray-700 border-gray-200 dark:border-gray-700"
-            aria-hidden="true"
-          >
-            <Image
-              className="flex items-center gap-1 rounded-full"
-              alt="gaea21"
-              width={100}
-              height={100}
-              src={logoGaea21}
-            />
-          </div>
-
-          <div>
-            <strong className="rounded border border-indigo-500 bg-indigo-500 px-3 py-1.5 text-[10px] font-medium text-white">
-              Episode #101
-            </strong>
-
-            <h3 className="mt-4 text-lg font-medium sm:text-xl">
-              <a href="#" className="hover:underline">
-                {" "}
-                Some Interesting Podcast Title{" "}
-              </a>
-            </h3>
-
-            <p className="mt-1 text-sm text-gray-700">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-              nulla amet voluptatum sit rerum, atque, quo culpa ut
-              necessitatibus eius suscipit eum accusamus, aperiam voluptas
-              exercitationem facere aliquid fuga. Sint.
-            </p>
-
-            <div className="mt-4 sm:flex sm:items-center sm:gap-2">
-              <div className="flex items-center gap-1 text-gray-500">
-                <svg
-                  className="h-4 w-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                  ></path>
-                </svg>
-
-                <p className="text-xs font-medium">48:32 minutes</p>
+    <section className="h-screen">
+      <div className="relative mx-auto flex flex-col h-full items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
+        <div className="flex flex-col gap-y-16 justify-center items-center relative">
+          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-400 sm:p-6 lg:p-8">
+            <div className="flex items-start sm:gap-8">
+              <div
+                className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-0 border-gray-500 dark:border-gray-400"
+                aria-hidden="true"
+              >
+                <Image
+                  className="flex items-center gap-1 rounded-full"
+                  alt="gaea21"
+                  width={100}
+                  height={100}
+                  src={logoGaea21}
+                />
               </div>
 
-              <span className="hidden sm:block" aria-hidden="true">
-                &middot;
-              </span>
+              <div>
+                <div className="flex flex-row gap-x-2">
+                  <strong className="rounded border border-[#00d7fe] bg-[#00d7fe] px-3 py-1.5 text-[10px] font-medium text-white">
+                    React
+                  </strong>
+                  <strong className="rounded border border-[#1c2025] bg-[#1c2025] px-3 py-1.5 text-[10px] font-medium text-white">
+                    Symfony
+                  </strong>
+                  <strong className="rounded border border-[#3b688c] bg-[#3b688c] px-3 py-1.5 text-[10px] font-medium text-white">
+                    PHPUnit
+                  </strong>
+                  <strong className="rounded border border-[#e69209] bg-[#e69209] px-3 py-1.5 text-[10px] font-medium text-white">
+                    MySQL
+                  </strong>
+                </div>
 
-              <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
-                Featuring{" "}
-                <a href="#" className="underline hover:text-gray-700">
-                  Barry
-                </a>
-                ,
-                <a href="#" className="underline hover:text-gray-700">
-                  Sandra
-                </a>{" "}
-                and
-                <a href="#" className="underline hover:text-gray-700">
-                  August
-                </a>
-              </p>
+                <h3 className="mt-4 text-lg font-medium sm:text-xl">
+                  <a href="#" className="hover:underline">
+                    {" "}
+                    Fullstack Web Developer - gaea21{" "}
+                  </a>
+                </h3>
+
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam nulla amet voluptatum sit rerum, atque, quo culpa ut
+                  necessitatibus eius suscipit eum accusamus, aperiam voluptas
+                  exercitationem facere aliquid fuga. Sint.
+                </p>
+
+                <div className="mt-4 sm:flex sm:items-center sm:gap-2">
+                  <div className="flex items-center gap-1 text-gray-500">
+                    <svg
+                      className="h-4 w-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+
+                    <p className="text-xs font-medium">48:32 minutes</p>
+                  </div>
+
+                  <span className="hidden sm:block" aria-hidden="true">
+                    &middot;
+                  </span>
+
+                  <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
+                    Featuring{" "}
+                    <a href="#" className="underline hover:text-gray-700">
+                      Barry
+                    </a>
+                    ,
+                    <a href="#" className="underline hover:text-gray-700">
+                      Sandra
+                    </a>{" "}
+                    and
+                    <a href="#" className="underline hover:text-gray-700">
+                      August
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
+          </article>
+
+          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-700 sm:p-6 lg:p-8">
+            <div className="flex items-start sm:gap-8">
+              <div
+                className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-2 bg-gray-200 dark:bg-gray-700 border-gray-200 dark:border-gray-700"
+                aria-hidden="true"
+              >
+                <Image
+                  className="flex items-center gap-1 rounded-full"
+                  alt="gaea21"
+                  width={100}
+                  height={100}
+                  src={logoGaea21}
+                />
+              </div>
+
+              <div>
+                <strong className="rounded border border-indigo-500 bg-indigo-500 px-3 py-1.5 text-[10px] font-medium text-white">
+                  Episode #101
+                </strong>
+
+                <h3 className="mt-4 text-lg font-medium sm:text-xl">
+                  <a href="#" className="hover:underline">
+                    {" "}
+                    3D Website & Animations{" "}
+                  </a>
+                </h3>
+
+                <p className="mt-1 text-sm text-gray-700">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam nulla amet voluptatum sit rerum, atque, quo culpa ut
+                  necessitatibus eius suscipit eum accusamus, aperiam voluptas
+                  exercitationem facere aliquid fuga. Sint.
+                </p>
+
+                <div className="mt-4 sm:flex sm:items-center sm:gap-2">
+                  <div className="flex items-center gap-1 text-gray-500">
+                    <svg
+                      className="h-4 w-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+
+                    <p className="text-xs font-medium">48:32 minutes</p>
+                  </div>
+
+                  <span className="hidden sm:block" aria-hidden="true">
+                    &middot;
+                  </span>
+
+                  <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
+                    Featuring{" "}
+                    <a href="#" className="underline hover:text-gray-700">
+                      Barry
+                    </a>
+                    ,
+                    <a href="#" className="underline hover:text-gray-700">
+                      Sandra
+                    </a>{" "}
+                    and
+                    <a href="#" className="underline hover:text-gray-700">
+                      August
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-      </article>
-      <motion.h1
-        initial={{ opacity: 0.5, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.3,
-          duration: 0.8,
-          ease: "easeInOut",
-        }}
-        className="flex items-center mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-4xl font-medium text-transparent"
-      ></motion.h1>
-    </LampContainer>
+      </div>
+    </section>
   );
 }
