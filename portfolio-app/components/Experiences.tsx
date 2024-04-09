@@ -26,16 +26,16 @@ export default function Experiences() {
 
               <div>
                 <div className="flex flex-row gap-x-2">
-                  <strong className="rounded border border-[#00d7fe] bg-[#00d7fe] px-3 py-1.5 text-[10px] font-medium text-white">
+                  <strong className="rounded border border-[#00d7fe] bg-[#00d7fe] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
                     React
                   </strong>
-                  <strong className="rounded border border-[#1c2025] bg-[#1c2025] px-3 py-1.5 text-[10px] font-medium text-white">
+                  <strong className="rounded border border-[#1c2025] bg-[#1c2025] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
                     Symfony
                   </strong>
-                  <strong className="rounded border border-[#3b688c] bg-[#3b688c] px-3 py-1.5 text-[10px] font-medium text-white">
+                  <strong className="rounded border border-[#3b688c] bg-[#3b688c] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
                     PHPUnit
                   </strong>
-                  <strong className="rounded border border-[#e69209] bg-[#e69209] px-3 py-1.5 text-[10px] font-medium text-white">
+                  <strong className="rounded border border-[#e69209] bg-[#e69209] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
                     MySQL
                   </strong>
                 </div>
@@ -48,10 +48,14 @@ export default function Experiences() {
                 </h3>
 
                 <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Ipsam nulla amet voluptatum sit rerum, atque, quo culpa ut
-                  necessitatibus eius suscipit eum accusamus, aperiam voluptas
-                  exercitationem facere aliquid fuga. Sint.
+                  During my internship at gaea21, I joined the IT team as a
+                  fullstack developer on the new main website project and I
+                  participated in the development of new features.
+                </p>
+                <p>
+                  this project presents an animated 3d avatar in a
+                  three-dimensional environment and describes the methods and
+                  tools used to optimize the rendering
                 </p>
 
                 <div className="mt-4 sm:flex sm:items-center sm:gap-2">
@@ -71,27 +75,8 @@ export default function Experiences() {
                       ></path>
                     </svg>
 
-                    <p className="text-xs font-medium">48:32 minutes</p>
+                    <p className="text-xs font-medium">9+ Mounths</p>
                   </div>
-
-                  <span className="hidden sm:block" aria-hidden="true">
-                    &middot;
-                  </span>
-
-                  <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
-                    Featuring{" "}
-                    <a href="#" className="underline hover:text-gray-700">
-                      Barry
-                    </a>
-                    ,
-                    <a href="#" className="underline hover:text-gray-700">
-                      Sandra
-                    </a>{" "}
-                    and
-                    <a href="#" className="underline hover:text-gray-700">
-                      August
-                    </a>
-                  </p>
                 </div>
               </div>
             </div>
