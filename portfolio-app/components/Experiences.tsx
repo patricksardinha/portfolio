@@ -4,6 +4,8 @@ import Image from "next/image";
 
 export default function Experiences() {
   const logoGaea21 = require("../images/gaea21_logo.png");
+  const logoR3F = require("../images/r3f_logo.png");
+  const logoComingSoon = require("../images/comingSoon_logo.png");
 
   return (
     <section className="h-screen">
@@ -16,7 +18,7 @@ export default function Experiences() {
                 aria-hidden="true"
               >
                 <Image
-                  className="flex items-center gap-1 rounded-full"
+                  className="flex items-center gap-1"
                   alt="gaea21"
                   width={100}
                   height={100}
@@ -31,6 +33,9 @@ export default function Experiences() {
                   </strong>
                   <strong className="rounded border border-[#1c2025] bg-[#1c2025] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
                     Symfony
+                  </strong>
+                  <strong className="rounded border border-[#7010ef] bg-[#7010ef] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
+                    Bootstrap
                   </strong>
                   <strong className="rounded border border-[#3b688c] bg-[#3b688c] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
                     PHPUnit
@@ -52,11 +57,6 @@ export default function Experiences() {
                   fullstack developer on the new main website project and I
                   participated in the development of new features.
                 </p>
-                <p>
-                  this project presents an animated 3d avatar in a
-                  three-dimensional environment and describes the methods and
-                  tools used to optimize the rendering
-                </p>
 
                 <div className="mt-4 sm:flex sm:items-center sm:gap-2">
                   <div className="flex items-center gap-1 text-gray-500">
@@ -75,32 +75,43 @@ export default function Experiences() {
                       ></path>
                     </svg>
 
-                    <p className="text-xs font-medium">9+ Mounths</p>
+                    <p className="text-xs font-medium">9+ Months</p>
                   </div>
                 </div>
               </div>
             </div>
           </article>
 
-          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-700 sm:p-6 lg:p-8">
+          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-400 sm:p-6 lg:p-8">
             <div className="flex items-start sm:gap-8">
               <div
-                className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-2 bg-gray-200 dark:bg-gray-700 border-gray-200 dark:border-gray-700"
+                className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-0 border-gray-500 dark:border-gray-400"
                 aria-hidden="true"
               >
                 <Image
-                  className="flex items-center gap-1 rounded-full"
+                  className="flex items-center gap-1"
                   alt="gaea21"
-                  width={100}
-                  height={100}
-                  src={logoGaea21}
+                  width={0}
+                  height={0}
+                  src={logoR3F}
                 />
               </div>
 
               <div>
-                <strong className="rounded border border-indigo-500 bg-indigo-500 px-3 py-1.5 text-[10px] font-medium text-white">
-                  Episode #101
-                </strong>
+                <div className="flex flex-row gap-x-2">
+                  <strong className="rounded border border-[#00d7fe] bg-[#00d7fe] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
+                    React
+                  </strong>
+                  <strong className="rounded border border-[#5457ff] bg-[#5457ff] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
+                    React-Three-Fiber
+                  </strong>
+                  <strong className="rounded border border-[#38bdf8] bg-[#38bdf8] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
+                    Tailwind
+                  </strong>
+                  <strong className="rounded border border-[#e37200] bg-[#e37200] px-3 py-1.5 text-[10px] font-medium text-white pointer-events-none">
+                    Blender
+                  </strong>
+                </div>
 
                 <h3 className="mt-4 text-lg font-medium sm:text-xl">
                   <a href="#" className="hover:underline">
@@ -109,11 +120,10 @@ export default function Experiences() {
                   </a>
                 </h3>
 
-                <p className="mt-1 text-sm text-gray-700">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Ipsam nulla amet voluptatum sit rerum, atque, quo culpa ut
-                  necessitatibus eius suscipit eum accusamus, aperiam voluptas
-                  exercitationem facere aliquid fuga. Sint.
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  This project presents an animated 3D avatar in a
+                  three-dimensional environment and describes the methods and
+                  tools used to optimize the rendering.
                 </p>
 
                 <div className="mt-4 sm:flex sm:items-center sm:gap-2">
@@ -133,27 +143,43 @@ export default function Experiences() {
                       ></path>
                     </svg>
 
-                    <p className="text-xs font-medium">48:32 minutes</p>
+                    <p className="text-xs font-medium">3+ Months</p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </article>
 
-                  <span className="hidden sm:block" aria-hidden="true">
-                    &middot;
-                  </span>
+          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-400 sm:p-6 lg:p-8">
+            <div className="flex items-start sm:gap-8">
+              <div
+                className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-0 border-gray-500 dark:border-gray-400"
+                aria-hidden="true"
+              >
+                <Image
+                  className="flex items-center gap-1"
+                  alt="gaea21"
+                  width={100}
+                  height={100}
+                  src={logoComingSoon}
+                />
+              </div>
 
-                  <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
-                    Featuring{" "}
-                    <a href="#" className="underline hover:text-gray-700">
-                      Barry
-                    </a>
-                    ,
-                    <a href="#" className="underline hover:text-gray-700">
-                      Sandra
-                    </a>{" "}
-                    and
-                    <a href="#" className="underline hover:text-gray-700">
-                      August
-                    </a>
-                  </p>
+              <div>
+                <h3 className="mt-4 text-lg font-medium sm:text-xl">
+                  <a href="#" className="hover:underline">
+                    {" "}
+                    Coming soon ...{" "}
+                  </a>
+                </h3>
+
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  Some other projects I was able to participate in will soon be
+                  added here.
+                </p>
+
+                <div className="mt-4 sm:flex sm:items-center sm:gap-2">
+                  <div className="flex items-center gap-1 text-gray-500"></div>
                 </div>
               </div>
             </div>
