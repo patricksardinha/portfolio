@@ -1,15 +1,35 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Cursus() {
+  const logoUnige = require("../images/unige_logo.png");
+  const logoVersoie = require("../images/versoie_logo.png");
+  const logoHK = require("../images/hk_logo.png");
+  const logoUnity = require("../images/unity_logo.png");
+
   return (
     <section className="h-screen">
       <div className="hidden relative mx-auto scale-0 md:scale-100 md:flex flex-col h-full md:items-center md:justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
         <ol className="flex gap-x-16 justify-center items-end relative">
           <li className="w-1/4 ms-4">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              University of Geneva
-            </h3>
-            <h4>Bachelor of Science - Computer Sciences</h4>
+            <div className="flex flex-row items-center justify-center">
+              <div className="w-3/4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  University of Geneva
+                </h3>
+                <h4>Bachelor of Science - Computer Sciences</h4>
+              </div>
+              <div className="w-1/4">
+                <Image
+                  className=" w-auto h-auto"
+                  alt="unige"
+                  width={100}
+                  height={100}
+                  src={logoUnige}
+                />
+              </div>
+            </div>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               My learning during my bachelor{"'"}s degree was very enriching. I
               acquired a lot of knowledge about IT in the broad sense and I had
@@ -23,10 +43,23 @@ export default function Cursus() {
           </li>
 
           <li className="w-1/4 ms-4">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Honk-Kong University of Science and Technology - Coursera
-            </h3>
-            <h4>Full-Stack Web Development Formation</h4>
+            <div className="flex flex-row items-center justify-center">
+              <div className="w-3/4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Honk-Kong University of Science and Technology - Coursera
+                </h3>
+                <h4>Full-Stack Web Development Formation</h4>
+              </div>
+              <div className="w-1/4">
+                <Image
+                  className=" w-auto h-auto"
+                  alt="unige"
+                  width={100}
+                  height={100}
+                  src={logoHK}
+                />
+              </div>
+            </div>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               After my university training I decided to follow a formation in
               Full Stack Web development to further specialize in this field.
@@ -44,10 +77,25 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2013 - 2016
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Lycée de la Versoie
-            </h3>
-            <h4>General baccalaureate - Scientific Series</h4>
+            <div className="flex flex-row items-center justify-center">
+              <div className="w-3/4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Lycée de la Versoie
+                </h3>
+                <h4>General baccalaureate - Scientific Series</h4>
+              </div>
+              <div className="w-1/4">
+                <Image
+                  className=" w-auto h-auto"
+                  alt="lycée-versoie"
+                  width={100}
+                  height={100}
+                  src={logoVersoie}
+                />
+              </div>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white"></h3>
+            <h4></h4>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               In high school I discovered programming through the Computer
               Science and Digital Sciences specialty and that{"'"}s where my
@@ -60,10 +108,23 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2019 - 2021
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              University of Geneva
-            </h3>
-            <h4>Master of Science - Computer Sciences</h4>
+            <div className="flex flex-row items-center justify-center">
+              <div className="w-3/4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  University of Geneva
+                </h3>
+                <h4>Master of Science - Computer Sciences</h4>
+              </div>
+              <div className="w-1/4">
+                <Image
+                  className=" w-auto h-auto"
+                  alt="unige"
+                  width={100}
+                  height={100}
+                  src={logoUnige}
+                />
+              </div>
+            </div>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               During my master{"'"}s degree I gained more and more knowledge and
               I had the opportunity to put them into practice on large-scale
@@ -76,10 +137,23 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2022 - 2023
             </time>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Unity Technologies
-            </h3>
-            <h4>Unity Programmer Formation</h4>
+            <div className="flex flex-row items-center justify-center">
+              <div className="w-3/4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Unity Technologies
+                </h3>
+                <h4>Unity Programmer Formation</h4>
+              </div>
+              <div className="w-1/4">
+                <Image
+                  className=" w-auto h-auto"
+                  alt="unige"
+                  width={100}
+                  height={100}
+                  src={logoUnity}
+                />
+              </div>
+            </div>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               I also did a formation in the development of real-time 3D
               applications with Unity & Unreal Engine. At the same time, I
@@ -97,6 +171,13 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2013 - 2016
             </time>
+            <Image
+              className=" w-auto h-auto"
+              alt="unige"
+              width={50}
+              height={50}
+              src={logoVersoie}
+            />
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               Lycée de la Versoie
             </h3>
