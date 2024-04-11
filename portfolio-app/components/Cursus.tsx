@@ -194,6 +194,13 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2016 - 2019
             </time>
+            <Image
+              className=" w-auto h-auto"
+              alt="unige"
+              width={50}
+              height={50}
+              src={logoUnige}
+            />
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               University of Geneva
             </h3>
@@ -210,6 +217,13 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2019 - 2021
             </time>
+            <Image
+              className=" w-auto h-auto"
+              alt="unige"
+              width={50}
+              height={50}
+              src={logoUnige}
+            />
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               University of Geneva
             </h3>
@@ -226,6 +240,13 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2021 - 2022
             </time>
+            <Image
+              className=" w-auto h-auto"
+              alt="unige"
+              width={50}
+              height={50}
+              src={logoHK}
+            />
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               Honk-Kong University of Science and Technology - Coursera
             </h3>
@@ -241,6 +262,13 @@ export default function Cursus() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2022 - 2023
             </time>
+            <Image
+              className=" w-auto h-auto"
+              alt="unige"
+              width={50}
+              height={50}
+              src={logoUnity}
+            />
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               Unity Technologies
             </h3>
