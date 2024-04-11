@@ -11,7 +11,7 @@ export default function Experiences() {
     <section className="h-screen">
       <div className="relative mx-auto flex flex-col h-full items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
         <div className="flex flex-col gap-y-16 justify-center items-center relative">
-          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-400 sm:p-6 lg:p-8">
+          <article className="content-center w-2/3 rounded-xl p-4 sm:p-6 lg:p-8">
             <div className="flex items-start sm:gap-8">
               <div
                 className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-0 border-gray-500 dark:border-gray-400"
@@ -46,7 +46,11 @@ export default function Experiences() {
                 </div>
 
                 <h3 className="mt-4 text-lg font-medium sm:text-xl">
-                  <a href="#" className="hover:underline">
+                  <a
+                    href="https://gaea21.org/"
+                    target="_blank"
+                    className="hover:underline"
+                  >
                     {" "}
                     Fullstack Web Developer - gaea21{" "}
                   </a>
@@ -82,7 +86,7 @@ export default function Experiences() {
             </div>
           </article>
 
-          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-400 sm:p-6 lg:p-8">
+          <article className="content-center w-2/3 rounded-xl p-4 sm:p-6 lg:p-8">
             <div className="flex items-start sm:gap-8">
               <div
                 className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-0 border-gray-500 dark:border-gray-400"
@@ -150,7 +154,7 @@ export default function Experiences() {
             </div>
           </article>
 
-          <article className="content-center w-2/3 rounded-xl p-4 ring ring-gray-200 dark:ring-gray-400 sm:p-6 lg:p-8">
+          <article className="content-center w-2/3 rounded-xl p-4 sm:p-6 lg:p-8">
             <div className="flex items-start sm:gap-8">
               <div
                 className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full border-0 border-gray-500 dark:border-gray-400"

@@ -5,6 +5,7 @@ import Contact from "../components/Contact";
 import Experiences from "../components/Experiences";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <Cursus />
       <Divider titleSection="My Experiences" />
       <Experiences />
+      <Divider titleSection="My Skills" />
+      <Skills />
       <Divider titleSection="My Contacts" />
       <Contact />
       <Footer />
