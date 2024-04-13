@@ -11,7 +11,7 @@ export default function Skills() {
   const frontSkills = [
     {
       id: 1,
-      name: "John Doe",
+      name: "React",
       designation: "Software Engineer",
       image: logoHK,
     },
