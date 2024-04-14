@@ -5,7 +5,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
-const permanent_marker = Kalam({
+const kalam = Kalam({
   weight: ["400", "300", "700"],
   subsets: ["latin"],
 });
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={permanent_marker.className}>
+      <body className={kalam.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           {children}
         </ThemeProvider>
