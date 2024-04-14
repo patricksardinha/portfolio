@@ -20,7 +20,7 @@ const config = {
     extend: {
       backgroundImage: {
         "light-pattern": "url('../images/bg-img3/5367739.jpg')",
-        "dark-pattern": "url('../images/bg-img2/bg-dark.png')",
+        "dark-pattern": "url('../images/bg-dark/dark_theme_1.png')",
       },
       backgroundOpacity: {
         "10": "0.1",

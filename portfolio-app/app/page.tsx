@@ -9,16 +9,16 @@ import Skills from "../components/Skills";
 
 export default function Home() {
   return (
-    <div className="px-16 bg-light-pattern dark:bg-dark-pattern">
+    <div className="bg-light-pattern dark:bg-dark-pattern">
       <ModeToggle />
       <Header />
-      <Divider titleSection="My Cursus" />
+      <Divider titleSection="Learn More About My Cursus." />
       <Cursus />
-      <Divider titleSection="My Experiences" />
+      <Divider titleSection="Check Out Some Of My Works." />
       <Experiences />
-      <Divider titleSection="My Skills" />
+      <Divider titleSection="About My Main Skills." />
       <Skills />
-      <Divider titleSection="My Contacts" />
+      <Divider titleSection="Visit My Socials & Contact Me From Anywhere." />
       <Contact />
       <Footer />
     </div>

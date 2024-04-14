@@ -10,7 +10,7 @@ export default function Cursus() {
 
   return (
     <section className="h-screen">
-      <div className="hidden relative mx-auto scale-0 md:scale-100 md:flex flex-col h-full md:items-center md:justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
+      <div className="px-16 hidden relative mx-auto scale-0 md:scale-100 md:flex flex-col h-full md:items-center md:justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
         <ol className="flex gap-x-16 justify-center items-end relative">
           <li className="w-1/4 ms-4">
             <div className="flex flex-row items-center justify-center">

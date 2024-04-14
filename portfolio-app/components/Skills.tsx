@@ -3,69 +3,70 @@
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 export default function Skills() {
-  const logoUnige = require("../images/unige_logo.png");
-  const logoVersoie = require("../images/versoie_logo.png");
-  const logoHK = require("../images/hk_logo.png");
-  const logoUnity = require("../images/unity_logo.png");
+  const logoReact = require("../images/react_logo.png");
+  const logoAngular = require("../images/angular_logo.png");
+  const logoJS = require("../images/javascript_logo.png");
+  const logoSymfony = require("../images/symfony_logo.png");
+  const logoPython = require("../images/python_logo.png");
+  const logoJava = require("../images/java_logo.png");
+  const logoBDD = require("../images/bdd_logo.png");
+  const logoGit = require("../images/git_logo.png");
 
   const frontSkills = [
     {
       id: 1,
       name: "React",
-      designation: "Software Engineer",
-      image: logoHK,
+      designation: "HTML - CSS",
+      image: logoReact,
     },
     {
       id: 2,
-      name: "Robert Johnson",
-      designation: "Product Manager",
-      image: logoUnige,
+      name: "Angular",
+      designation: "HTML - CSS",
+      image: logoAngular,
     },
     {
       id: 3,
-      name: "Jane Smith",
-      designation: "Data Scientist",
-      image: logoHK,
+      name: "Javascript",
+      designation: "",
+      image: logoJS,
     },
     {
       id: 4,
-      name: "Emily Davis",
-      designation: "UX Designer",
-      image: logoVersoie,
+      name: "Symfony",
+      designation: "PHP",
+      image: logoSymfony,
     },
     {
       id: 5,
-      name: "Tyler Durden",
-      designation: "Soap Developer",
-      image: logoUnige,
+      name: "Python",
+      designation: "",
+      image: logoPython,
     },
     {
       id: 6,
-      name: "Dora",
-      designation: "The Explorer",
-      image: logoHK,
+      name: "Java",
+      designation: "",
+      image: logoJava,
+    },
+    {
+      id: 7,
+      name: "SQL - NoSQL",
+      designation: "MySQL - MongoDB",
+      image: logoBDD,
+    },
+    {
+      id: 8,
+      name: "Git",
+      designation: "& Agile Methods",
+      image: logoGit,
     },
   ];
 
   return (
     <section className="h-screen">
       <div className="flex flex-col relative mx-auto items-center justify-center w-full h-full">
-        <div className="flex flex-row items-center justify-center">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Frontend
-          </h3>
-        </div>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white"></h3>
-        <div className="flex flex-row items-center justify-center mb-10 w-full">
-          <AnimatedTooltip items={frontSkills} />
-        </div>
-
-        <div className="flex flex-row items-center justify-center">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Backend
-          </h3>
-        </div>
-        <div className="flex flex-row items-center justify-center mb-10 w-full">
+        <div className="flex flex-row flex-wrap items-center justify-center mb-10 w-full md:w-2/3">
           <AnimatedTooltip items={frontSkills} />
         </div>
       </div>

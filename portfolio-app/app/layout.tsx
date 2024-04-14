@@ -1,9 +1,14 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Kalam, Roboto } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+const permanent_marker = Kalam({
+  weight: ["400", "300", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={permanent_marker.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           {children}
         </ThemeProvider>
