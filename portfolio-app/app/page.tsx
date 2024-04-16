@@ -14,15 +14,15 @@ export default function Home() {
       <section className="h-screen">
         <Header />
       </section>
-      <section className="h-screen mb-40">
+      <section className="h-full lg:h-screen mb-40">
         <Divider titleSection="Learn More About My Cursus." />
         <Cursus />
       </section>
-      <section className="h-screen mb-36">
+      <section className="h-full md:h-screen mb-36">
         <Divider titleSection="Check Out Some Of My Works." />
         <Experiences />
       </section>
-      <section className="h-screen py-32">
+      <section className="h-full md:h-screen py-32">
         <Divider titleSection="About My Main Skills." />
         <Skills />
       </section>

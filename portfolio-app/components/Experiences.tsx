@@ -8,7 +8,7 @@ export default function Experiences() {
   const logoComingSoon = require("../images/comingSoon_logo.png");
 
   return (
-    <div className="relative mx-auto flex flex-col h-full items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
+    <div className="relative mx-auto flex flex-col h-full mt-32 lg:mt-8 items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
       <div className="flex flex-col gap-y-16 justify-center items-center relative">
         <article className="content-center w-2/3 rounded-xl p-4 sm:p-6 lg:p-8">
           <div className="flex items-start sm:gap-8">
@@ -170,7 +170,7 @@ export default function Experiences() {
 
             <div>
               <h3 className="mt-4 text-2xl font-bold">
-                <a href="#" className="hover:underline">
+                <a href="" className="pointer-events-none">
                   {" "}
                   Coming soon ...{" "}
                 </a>

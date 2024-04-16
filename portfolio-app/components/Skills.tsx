@@ -64,7 +64,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="flex flex-col relative mx-auto items-center justify-center w-full h-full">
+    <div className="flex flex-col relative mx-auto items-center justify-center pt-16 md:pt-0 w-full h-full">
       <div className="flex flex-row flex-wrap items-center justify-center mb-10 w-full md:w-2/3">
         <AnimatedTooltip items={frontSkills} />
       </div>

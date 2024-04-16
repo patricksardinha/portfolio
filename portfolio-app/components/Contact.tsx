@@ -399,7 +399,7 @@ export default function Contact() {
 
   return (
     <div className="flex flex-row items-center justify-center h-screen md:h-auto relative w-full">
-      <div className="max-w-full mx-auto w-full relative overflow-hidden h-full md:h-[40rem]">
+      <div className="flex justify-center max-w-full mx-auto w-full relative overflow-hidden h-full md:h-[40rem]">
         <motion.div
           initial={{
             opacity: 0,
@@ -414,7 +414,7 @@ export default function Contact() {
           }}
           className="div"
         ></motion.div>
-        <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+        <ul className="mt-12 flex flex-col md:flex-row text-center gap-6 md:gap-8">
           <li>
             <a href="https://github.com/patricksardinha" target="_blank">
               <button
@@ -463,7 +463,7 @@ export default function Contact() {
           </li>
         </ul>
         <div className="absolute w-full bottom-0 inset-x-0 h-20 bg-gradient-to-b from-transparent dark:to-black/80 to-white/80 z-40" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+        <div className="absolute w-full -bottom-0 md:-bottom-20 h-2/3 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
       </div>
