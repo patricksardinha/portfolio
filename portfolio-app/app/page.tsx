@@ -18,11 +18,11 @@ export default function Home() {
         <Divider titleSection="Learn More About My Cursus." />
         <Cursus />
       </section>
-      <section className="h-full md:h-screen mb-36">
+      <section className="h-full lg:h-screen mb-36 lg:mb-72">
         <Divider titleSection="Check Out Some Of My Works." />
         <Experiences />
       </section>
-      <section className="h-full md:h-screen py-32">
+      <section className="h-full lg:h-screen mb-36 lg:mb-0">
         <Divider titleSection="About My Main Skills." />
         <Skills />
       </section>
