@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="bg-light-pattern dark:bg-dark-pattern">
       <Menu />
-      <section className="h-screen">
+      <section className="h-full lg:h-screen pt-24 mb-36">
         <Header />
       </section>
       <section className="h-full lg:h-screen mb-40">

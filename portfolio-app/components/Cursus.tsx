@@ -19,7 +19,7 @@ export default function Cursus() {
               </div>
               <div className="w-1/4">
                 <Image
-                  className=" w-auto h-auto"
+                  className="w-auto h-auto"
                   alt="unige"
                   width={100}
                   height={100}
@@ -175,7 +175,7 @@ export default function Cursus() {
               Year 2013 - 2016
             </time>
             <Image
-              className="mt-4 w-auto h-auto"
+              className="mt-4 w-20 h-auto"
               alt="unige"
               width={50}
               height={50}
@@ -200,7 +200,7 @@ export default function Cursus() {
               Year 2016 - 2019
             </time>
             <Image
-              className="mt-4 w-auto h-auto"
+              className="mt-4 w-20 h-auto"
               alt="unige"
               width={50}
               height={50}
@@ -223,7 +223,7 @@ export default function Cursus() {
               Year 2019 - 2021
             </time>
             <Image
-              className="mt-4 w-auto h-auto"
+              className="mt-4 w-20 h-auto"
               alt="unige"
               width={50}
               height={50}
@@ -246,7 +246,7 @@ export default function Cursus() {
               Year 2021 - 2022
             </time>
             <Image
-              className="mt-4 w-auto h-auto"
+              className="mt-4 w-20 h-auto"
               alt="unige"
               width={50}
               height={50}
@@ -268,7 +268,7 @@ export default function Cursus() {
               Year 2022 - 2023
             </time>
             <Image
-              className="mt-4 w-auto h-auto"
+              className="mt-4 w-20 h-auto"
               alt="unige"
               width={50}
               height={50}

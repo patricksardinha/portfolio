@@ -35,7 +35,7 @@ export const AnimatedTooltip = ({
     <>
       {items.map((item, idx) => (
         <div
-          className="flex m-4 items-center justify-center relative group"
+          className="flex m-1 sm:m-4 items-center justify-center relative group"
           key={item.name}
           onMouseEnter={() => setHoveredIndex(item.id)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -46,6 +46,7 @@ export const AnimatedTooltip = ({
               animate={{
                 opacity: 1,
                 y: 0,
+                x: 70,
                 scale: 1.7,
                 transition: {
                   type: "spring",

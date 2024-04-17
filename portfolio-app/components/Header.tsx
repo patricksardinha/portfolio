@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="flex flex-col gap-y-32 w-full h-full items-center justify-center">
       <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-x-8">
-        <div className="flex flex-col text-center sm:text-end basis-3/5 xl:basis-7/12 max-w-7xl z-10 ">
+        <div className="flex flex-col text-center sm:text-end basis-3/5 xl:basis-7/12 max-w-7xl z-10 mx-8">
           <div className="sm:ml-4 md:ml-0 sm:mr-12 md:mr-0">
             <h1 className="text-5xl lg:text-6xl font-bold">
               Patrick Sardinha. <br />
