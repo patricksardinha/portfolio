@@ -9,11 +9,11 @@ export default function Header() {
         <div className="flex flex-col text-center sm:text-end basis-3/5 xl:basis-7/12 max-w-7xl z-10 mx-8">
           <div className="sm:ml-4 md:ml-0 sm:mr-12 md:mr-0">
             <h1 className="text-5xl lg:text-6xl font-bold">
-              Patrick Sardinha. <br />
+              Patrick Sardinha <br />
             </h1>
 
             <p className="text-xl lg:text-2xl font-normal mt-8">
-              I am Fullstack developper, Welcome to my website.
+              I am a Fullstack Developer, Welcome to my website.
             </p>
 
             <div className=" flex flex-col sm:flex-row gap-6 sm:gap-8 justify-end items-center mt-8">

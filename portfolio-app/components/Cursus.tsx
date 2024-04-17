@@ -36,7 +36,7 @@ export default function Cursus() {
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2016 - 2019
             </time>
-            <div className="mt-2 relative w-3 h-3 bg-gray-200 rounded-full -bottom-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mt-2 relative w-3 h-3 bg-gray-200 rounded-full -bottom-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700 z-10"></div>
           </li>
 
           <li className="w-1/4 ms-4">
@@ -66,13 +66,13 @@ export default function Cursus() {
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2021 - 2022
             </time>
-            <div className="mt-2 relative w-3 h-3 bg-gray-200 rounded-full -bottom-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mt-2 relative w-3 h-3 bg-gray-200 rounded-full -bottom-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700 z-10"></div>
           </li>
         </ol>
 
-        <ol className="flex gap-x-16 justify-center items-start relative border-t border-gray-300 dark:border-gray-700 opacity-75">
+        <ol className="flex gap-x-16 justify-center items-start relative border-t border-gray-300 dark:border-gray-500">
           <li className="w-1/4 ms-4">
-            <div className="mb-2 relative w-3 h-3 bg-gray-200 rounded-full -top-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 relative w-3 h-3 bg-gray-200 rounded-full -top-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2013 - 2016
             </time>
@@ -105,7 +105,7 @@ export default function Cursus() {
           </li>
 
           <li className="w-1/4 ms-4">
-            <div className="mb-2 relative w-3 h-3 bg-gray-200 rounded-full -top-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 relative w-3 h-3 bg-gray-200 rounded-full -top-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2019 - 2021
             </time>
@@ -129,14 +129,14 @@ export default function Cursus() {
               </div>
             </div>
             <p className="mb-4 mt-4 text-lg font-normal text-gray-500 dark:text-gray-400">
-              During my master{"'"}s degree I gained more and more knowledge and
-              I had the opportunity to put them into practice on large-scale
+              During my master{"'"}s degree I acquired more and more knowledge
+              and I had the opportunity to put them into practice on large-scale
               academic projects.
             </p>
           </li>
 
           <li className="w-1/4 ms-4">
-            <div className="mb-2 relative w-3 h-3 bg-gray-200 rounded-full -top-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 relative w-3 h-3 bg-gray-200 rounded-full -top-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2022 - 2023
             </time>
@@ -168,9 +168,9 @@ export default function Cursus() {
       </div>
 
       <div className="relative scale-100 lg:scale-0 flex lg:hidden flex-col h-full p-4 items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
-        <ol className="relative m-32 border-s border-gray-300 dark:border-gray-700">
+        <ol className="relative my-32 mx-8 border-s border-gray-300 dark:border-gray-500">
           <li className="mb-10 ms-4 px-8">
-            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2013 - 2016
             </time>
@@ -195,7 +195,7 @@ export default function Cursus() {
           </li>
 
           <li className="mb-10 ms-4 px-8">
-            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2016 - 2019
             </time>
@@ -218,7 +218,7 @@ export default function Cursus() {
           </li>
 
           <li className="mb-10 ms-4 px-8">
-            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2019 - 2021
             </time>
@@ -234,14 +234,14 @@ export default function Cursus() {
             </h3>
             <h4 className="text-lg">Master of Science - Computer Sciences</h4>
             <p className="mb-4 mt-4 text-lg font-normal text-gray-500 dark:text-gray-400">
-              During my master{"'"}s degree I gained more and more knowledge and
-              I had the opportunity to put them into practice on large-scale
+              During my master{"'"}s degree I acquired more and more knowledge
+              and I had the opportunity to put them into practice on large-scale
               academic projects.
             </p>
           </li>
 
           <li className="mb-10 ms-4 px-8">
-            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2021 - 2022
             </time>
@@ -263,7 +263,7 @@ export default function Cursus() {
           </li>
 
           <li className="mb-10 ms-4 px-8">
-            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-gray-400/50 dark:border-gray-500 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
               Year 2022 - 2023
             </time>
