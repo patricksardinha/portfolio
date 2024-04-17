@@ -183,8 +183,8 @@ export default function Experiences() {
               </h3>
 
               <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
-                Some other projects I was able to participate in will soon be
-                added here.
+                Check out more of my projects on my github. Some of them will be
+                added here soon.
               </p>
 
               <div className="mt-4 sm:flex sm:items-center sm:gap-2">
