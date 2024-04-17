@@ -168,7 +168,7 @@ export default function Cursus() {
       </div>
 
       <div className="relative scale-100 lg:scale-0 flex lg:hidden flex-col h-full p-4 items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
-        <ol className="relative m-32 border-s border-gray-200 dark:border-gray-700">
+        <ol className="relative m-32 border-s border-gray-300 dark:border-gray-700">
           <li className="mb-10 ms-4 px-8">
             <div className="mb-2 absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">

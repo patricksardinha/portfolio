@@ -7,9 +7,9 @@ import Image from "next/image";
 export default function Menu() {
   return (
     <>
-      <div className="flex justify-between w-full fixed z-10 left-0 sm:left-12 top-12">
+      <div className="flex justify-between w-full fixed z-10 left-2 sm:left-6 top-12">
         <ModeToggle />
-        <div className="relative">
+        <div className="relative -left-4 sm:-left-12">
           <a href="#">
             <Button variant="outline" size="default">
               <Image
