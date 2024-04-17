@@ -3,11 +3,6 @@
 import Image from "next/image";
 
 export default function Cursus() {
-  const logoUnige = require("../images/unige_logo.png");
-  const logoVersoie = require("../images/versoie_logo.png");
-  const logoHK = require("../images/hk_logo.png");
-  const logoUnity = require("../images/unity_logo.png");
-
   return (
     <>
       <div className="px-16 hidden relative mx-auto scale-0 lg:scale-100 lg:flex flex-col h-full items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
@@ -28,7 +23,7 @@ export default function Cursus() {
                   alt="unige"
                   width={100}
                   height={100}
-                  src={logoUnige}
+                  src="/images/unige_logo.png"
                 />
               </div>
             </div>
@@ -60,7 +55,7 @@ export default function Cursus() {
                   alt="unige"
                   width={100}
                   height={100}
-                  src={logoHK}
+                  src="/images/hk_logo.png"
                 />
               </div>
             </div>
@@ -96,7 +91,7 @@ export default function Cursus() {
                   alt="lycée-versoie"
                   width={100}
                   height={100}
-                  src={logoVersoie}
+                  src="/images/versoie_logo.png"
                 />
               </div>
             </div>
@@ -129,7 +124,7 @@ export default function Cursus() {
                   alt="unige"
                   width={100}
                   height={100}
-                  src={logoUnige}
+                  src="/images/unige_logo.png"
                 />
               </div>
             </div>
@@ -158,7 +153,7 @@ export default function Cursus() {
                   alt="unige"
                   width={100}
                   height={100}
-                  src={logoUnity}
+                  src="/images/unity_logo.png"
                 />
               </div>
             </div>
@@ -184,7 +179,7 @@ export default function Cursus() {
               alt="unige"
               width={50}
               height={50}
-              src={logoVersoie}
+              src="/images/versoie_logo.png"
             />
             <h3 className="mt-4 text-2xl font-semibold text-gray-900 dark:text-white">
               Lycée de la Versoie
@@ -209,7 +204,7 @@ export default function Cursus() {
               alt="unige"
               width={50}
               height={50}
-              src={logoUnige}
+              src="/images/unige_logo.png"
             />
             <h3 className="mt-4 text-2xl font-semibold text-gray-900 dark:text-white">
               University of Geneva
@@ -232,7 +227,7 @@ export default function Cursus() {
               alt="unige"
               width={50}
               height={50}
-              src={logoUnige}
+              src="/images/unige_logo.png"
             />
             <h3 className="mt-4 text-2xl font-semibold text-gray-900 dark:text-white">
               University of Geneva
@@ -255,7 +250,7 @@ export default function Cursus() {
               alt="unige"
               width={50}
               height={50}
-              src={logoHK}
+              src="/images/hk_logo.png"
             />
             <h3 className="mt-4 text-2xl font-semibold text-gray-900 dark:text-white">
               Honk-Kong University of Science and Technology - Coursera
@@ -277,7 +272,7 @@ export default function Cursus() {
               alt="unige"
               width={50}
               height={50}
-              src={logoUnity}
+              src="/images/unity_logo.png"
             />
             <h3 className="mt-4 text-2xl font-semibold text-gray-900 dark:text-white">
               Unity Technologies

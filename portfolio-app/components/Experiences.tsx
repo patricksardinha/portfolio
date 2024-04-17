@@ -3,13 +3,9 @@
 import Image from "next/image";
 
 export default function Experiences() {
-  const logoGaea21 = require("../images/gaea21_logo.png");
-  const logoR3F = require("../images/r3f_logo.png");
-  const logoComingSoon = require("../images/comingSoon_logo.png");
-
   return (
     <div className="relative mx-auto flex flex-col h-full mt-32 lg:mt-8 items-center justify-center w-full antialiased bg-grid-white/[0.02] overflow-hidden">
-      <div className="flex flex-col gap-y-4 justify-center items-center relative">
+      <div className="flex flex-col gap-y-12 md:gap-y-4 justify-center items-center relative">
         <article className="content-center w-2/3 rounded-xl md:pt-16">
           <div className="flex items-start sm:gap-8">
             <div
@@ -21,7 +17,7 @@ export default function Experiences() {
                 alt="gaea21"
                 width={100}
                 height={100}
-                src={logoGaea21}
+                src="/images/gaea21_logo.png"
               />
             </div>
 
@@ -94,9 +90,9 @@ export default function Experiences() {
               <Image
                 className="flex items-center gap-1"
                 alt="gaea21"
-                width={0}
-                height={0}
-                src={logoR3F}
+                width={100}
+                height={100}
+                src="/images/r3f_logo.png"
               />
             </div>
 
@@ -170,7 +166,7 @@ export default function Experiences() {
                 alt="gaea21"
                 width={100}
                 height={100}
-                src={logoComingSoon}
+                src="/images/comingSoon_logo.png"
               />
             </div>
 

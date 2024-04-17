@@ -3,12 +3,6 @@
 import Image from "next/image";
 
 export default function Header() {
-  const imgMe = require("../images/me_LowPoly.png");
-  const scrollLight = require("../images/scroll_to_explore_black.gif");
-  const scrollDark = require("../images/scroll_to_explore_white.gif");
-  const logoGithub = require("../images/github_logo.png");
-  const logoLinkedIn = require("../images/linkedin_logo.png");
-
   return (
     <div className="flex flex-col gap-y-32 w-full h-full items-center justify-center">
       <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-x-8">
@@ -33,7 +27,7 @@ export default function Header() {
                   <Image
                     className="w-8 h-8"
                     alt="github"
-                    src={logoGithub}
+                    src="/images/github_logo.png"
                     width={30}
                     height={30}
                   />
@@ -56,7 +50,7 @@ export default function Header() {
                   <Image
                     className="w-8 h-8"
                     alt="github"
-                    src={logoLinkedIn}
+                    src="/images/linkedin_logo.png"
                     width={20}
                     height={20}
                   />
@@ -74,7 +68,7 @@ export default function Header() {
             alt="me"
             width={300}
             height={300}
-            src={imgMe}
+            src="/images/me_LowPoly.png"
           />
         </div>
       </div>
@@ -84,14 +78,14 @@ export default function Header() {
           alt="scroll down"
           width={75}
           height={75}
-          src={scrollLight}
+          src="/images/scroll_to_explore_black.gif"
         />
         <Image
           className="absolute rounded-full dark:scale-100 scale-0"
           alt="scroll down"
           width={75}
           height={75}
-          src={scrollDark}
+          src="/images/scroll_to_explore_white.gif"
         />
       </div>
     </div>

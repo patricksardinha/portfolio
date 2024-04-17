@@ -3,63 +3,54 @@
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 export default function Skills() {
-  const logoReact = require("../images/react_logo.png");
-  const logoAngular = require("../images/angular_logo.png");
-  const logoJS = require("../images/javascript_logo.png");
-  const logoSymfony = require("../images/symfony_logo.png");
-  const logoPython = require("../images/python_logo.png");
-  const logoJava = require("../images/java_logo.png");
-  const logoBDD = require("../images/bdd_logo.png");
-  const logoGit = require("../images/git_logo.png");
-
   const frontSkills = [
     {
       id: 1,
       name: "React",
       designation: "HTML - CSS",
-      image: logoReact,
+      image: "/images/react_logo.png",
     },
     {
       id: 2,
       name: "Angular",
       designation: "HTML - CSS",
-      image: logoAngular,
+      image: "/images/angular_logo.png",
     },
     {
       id: 3,
       name: "Javascript",
       designation: "",
-      image: logoJS,
+      image: "/images/javascript_logo.png",
     },
     {
       id: 4,
       name: "Symfony",
       designation: "PHP",
-      image: logoSymfony,
+      image: "/images/symfony_logo.png",
     },
     {
       id: 5,
       name: "Python",
       designation: "",
-      image: logoPython,
+      image: "/images/python_logo.png",
     },
     {
       id: 6,
       name: "Java",
       designation: "",
-      image: logoJava,
+      image: "/images/java_logo.png",
     },
     {
       id: 7,
       name: "SQL - NoSQL",
       designation: "MySQL - MongoDB",
-      image: logoBDD,
+      image: "/images/bdd_logo.png",
     },
     {
       id: 8,
       name: "Git",
       designation: "& Agile Methods",
-      image: logoGit,
+      image: "/images/git_logo.png",
     },
   ];
 

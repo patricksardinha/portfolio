@@ -8,9 +8,6 @@ const World = dynamic(() => import("./ui/Globe").then((m) => m.World), {
 });
 
 export default function Contact() {
-  const logoGithub = require("../images/github_logo.png");
-  const logoLinkedIn = require("../images/linkedin_logo.png");
-
   const globeConfig = {
     pointSize: 4,
     globeColor: "#062056",
@@ -426,7 +423,7 @@ export default function Contact() {
                 <Image
                   className="w-8 h-8"
                   alt="github"
-                  src={logoGithub}
+                  src="/images/github_logo.png"
                   width={30}
                   height={30}
                 />
@@ -451,7 +448,7 @@ export default function Contact() {
                 <Image
                   className="w-8 h-8"
                   alt="github"
-                  src={logoLinkedIn}
+                  src="/images/linkedin_logo.png"
                   width={20}
                   height={20}
                 />
