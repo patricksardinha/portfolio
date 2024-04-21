@@ -10,6 +10,7 @@ const kalam = Kalam({
   subsets: ["latin"],
 });
 
+//
 export const metadata: Metadata = {
   title: "Patrick Sardinha",
   description: "Patrick Sardinha's Portfolio",
